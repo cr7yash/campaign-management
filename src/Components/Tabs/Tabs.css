@@ -1,0 +1,33 @@
+.tabContainer{
+    height: 38px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center; 
+    margin-bottom: 40px;
+    border-bottom: 1px solid rgb(241, 241, 244);
+    padding-left: 181px;
+    padding-right: 182px;
+}
+
+.tabItem{
+    padding: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    min-width: 241px;
+    text-align: center;
+}
+.active{
+    border-bottom: 4px solid #83A515;
+    color: #83A515;
+    padding-bottom: 10px;
+}
+@media only screen and (max-width :600px){
+    .tabContainer {
+        width: 30%;
+        display: flex;
+    }
+    .tabItem {
+        font-size: 12px;
+        min-width: 112px;
+    }
+}

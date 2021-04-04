@@ -1,0 +1,108 @@
+.popUp_Container {
+position: absolute;
+width: 400px;
+height: 451px;
+left: 0px;
+top: 13px;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  margin: auto;
+  background-color:white;
+}
+
+.popUp_Overlay{    
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    backgroundColor: rgba(0, 0, 0, .7);
+    zIndex: 1000;
+  }
+
+
+.popUp_inner {
+  background-color: white;
+  border-radius: 3px;
+  height: 385px;
+  left: 0px;
+  position: absolute;
+  top: 80px;
+  width: 402px;
+}
+
+.popUp_upper {
+  display: flex;
+}
+
+.popUp_icon {
+  height: 167px;
+  width: 167px;
+  background-size: contain;
+  background-size: cover;
+  padding-left: 5%;
+}
+
+.popUp_headingcontainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  text-transform: uppercase;
+  justify-content: flex-end;
+}
+
+.popUp_headingcontainer:nth-child(2) {
+  font-size: 14px;
+  color: #2B416C;
+}
+.popUp_headingcontainer:first-child {
+  font-size: 16px;
+  color: #9CA2B7;
+}
+
+.popUp_priceHeading {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 6px;
+  color:#2B416C;
+  padding-left: 5%;
+}
+
+.popUp_priceText {
+  font-size: 14px;
+  font-weight: 400;
+  color: #7788A3;
+  padding-left: 5%;
+
+}
+
+.popUp_pricingRow {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  padding-right: 5%;
+  color:#556789;
+}
+
+.popUp_button {
+  display: flex;
+  justify-content: center;
+}
+
+.popUp_closebutton {
+  border: 2px solid black;
+  padding: 10px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .popUp_Inner {
+    left: 10%;
+    right: 10%;
+    top: 20%;
+    width: 250px;
+    bottom: 20%;
+  }
+}
+  

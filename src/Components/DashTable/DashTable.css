@@ -1,0 +1,156 @@
+.table-container{
+    overflow-x: auto;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.3);
+    padding-left: 181px;
+    padding-right: 182px;
+
+}
+table{
+    border-radius:10px ;
+    border: 1px solid #F1F1F4;
+    border-collapse: collapse;
+    box-shadow:0px, 2px rgba(0, 0, 0, 0.1) ;
+    width: 100%;
+}
+.data-row{
+    border-bottom: 1px solid rgb(236, 236, 236);
+    
+}
+
+td{
+    padding-left: 12px;
+}
+td span img{
+    margin-right: 8px;
+}
+.actionColumn{
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 300px;
+    position: relative;
+    top: -15px;
+    color:#7788A3;
+}
+.date-popup{
+    left: -25px !important;
+}
+.dark-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2B416C;
+}
+
+.campaignColumn{
+    padding: 0 20px;
+    align-items: center;
+    display: flex;
+    margin-top: 15px;
+}
+
+.emptyHeadline{
+    margin: 80px auto 20px auto;
+    border: 1px solid #F1F1F4;
+    width:fit-content;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: #F1F1F4;
+}
+.rowCampaignName{
+    font-size: 12px;
+    width: 80px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+.rowCampaignCountry {
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 200;
+    color: #827e7e;
+    margin-top: 4px;
+}
+
+.campaign-status{
+    color:#7788A3;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+.viewColumn{
+    cursor: pointer;
+    color:#7788A3;
+    min-width: 150px;;
+}
+#row0{
+    background-color: #F1F1F4;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    height: 48px;
+    vertical-align: center;
+    text-transform: uppercase;
+    color:#556789;
+    text-align: center;
+    
+}
+.icon{
+    height: 24px;
+    width:18.84px;
+    margin-right: 6px;
+    top: 3px;
+    position: relative;
+}
+.adjust-text{
+    margin-right: 20px;
+}
+.rowCampaignNameWrapper{
+  margin-left: 6px;
+}
+.rowCampaignIcon {
+    height: 40px;
+    width: 40px;
+    background-size: contain;
+    background-size: cover;
+}
+
+
+
+@media only screen and (max-width: 786px) {
+    .table-container{
+        margin-top:12px;
+    }
+    .rowCampaignName{
+        font-size: 12px;
+        width: 80px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      #cell0-2 {
+        min-width: 130px;
+    }
+    .adjust-text{
+        top:-12px;
+        position:relative;
+        margin-right: 20px;
+    }
+    .icon{
+        top: -7px;
+        position: relative;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    #cell0-0 {
+        min-width: 120px;
+    }
+    #cell0-2 {
+        min-width: 130px;
+    }
+}
